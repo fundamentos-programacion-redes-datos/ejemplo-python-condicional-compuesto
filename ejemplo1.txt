@@ -1,0 +1,19 @@
+1. Inicio
+2. ciudad, x(20)[{a-z}, {A-Z}, {BS}]
+2. nombre, x(20)[{a-z}, {A-Z}, {BS}]
+3. edad, i[0-n] 
+4. // se presenta un mensaje en pantalla
+5. Escribir "Ingrese la edad de la persona:"
+6. // se lee por teclado el valor que será asumido por edad
+7. Leer edad
+5. Escribir "Ingrese el nombre de la persona:"
+7. Leer nombre
+5. Escribir "Ingrese la ciudad de nacimiento de la persona:"
+7. Leer ciudad
+8. // Se inicia el condicional
+9.  Si edad >= 18 y ciudad=="Loja" entonces
+10.     Escribir "Acceso correcto" + nombre
+11. De lo contrario
+11.     Escribir "Acceso incorrecto" + nombre 
+11. Fin Si
+12. Fin
